@@ -13,3 +13,22 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: minhquantemplate
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
+
+
+.wp-element-button,
+.wp-block-button__link {
+    color: white;
+}
+
+.wp-block-text__primary  {
+    color: var(--wp--preset--color--primary);
+}
+
+.wp-block-text__secondary  {
+    color: var(--wp--preset--color--secondary);
+}
+
+.wp-block-separator {
+    border: 3px solid;
+    width: 50%;
+}
